@@ -35,15 +35,20 @@ h1 {
     padding: 10px;
 }
 
-.project__container__item a {
+.project__container__item .descr a {
+    text-decoration: none;
+}
+
+.project__container__item .custom_link {
     display: block;
     text-decoration: none;
     color: #000;
 }
 
 .project__container__item img {
+    display: block;
     max-width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
