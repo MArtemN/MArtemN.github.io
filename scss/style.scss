@@ -1,0 +1,124 @@
+body {
+    background-color: #3d9c6d;
+    font-family: 'Merienda', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-bottom: 1px solid #fff;
+    .logo {
+        width: 100px;
+        height: 100px;
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 100%;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        li {
+            list-style-type: none;
+            padding-right: 20px;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.project__container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project__container__item {
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    min-height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.project__container__item .descr {
+    text-align: center;
+    padding: 10px;
+}
+
+.project__container__item .descr a {
+    text-decoration: none;
+}
+
+.project__container__item .custom_link {
+    display: block;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    color: #000;
+    transition: all .5s;
+}
+
+.project__container__item img {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    transition: all .5s;
+}
+
+.project__container__item .custom_link:hover {
+    box-shadow: -1px -1px 8px 7px rgba(0, 0, 0, 0.2);
+    transform: scale(1.5);
+    border-radius: 10px;
+    padding: 0;
+    img {
+        border-radius: 10px;
+    }
+}
+
+/* BACKGROUND */
+#stars { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    background:#3d9c6d;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+    }
